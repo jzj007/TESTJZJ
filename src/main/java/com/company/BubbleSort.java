@@ -1,9 +1,5 @@
 package com.company;
 
-
-import static org.junit.Assert.assertArrayEquals;
-import static org.junit.Assert.assertEquals;
-
 public class BubbleSort {
     public double[] bubbleSort(double[] a) {
         double temp;

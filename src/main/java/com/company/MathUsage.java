@@ -28,7 +28,7 @@ public class MathUsage {
         else{
             this.setMean_higher("A");
         }
-        if( x_variance.evaluate(a) > y_variance.evaluate(b) ){   //小于号被改成了大于号
+        if( x_variance.evaluate(a) < y_variance.evaluate(b) ){   //小于号被改成了大于号
             this.setVariance_lower("A");
         }
         else{
